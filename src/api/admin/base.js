@@ -4,3 +4,8 @@ import HttpRequest from '@/utils/request'
 export function uploadAvatar (params = {}) {
   return HttpRequest('/upload', 'post', params)
 }
+
+// 上传视频
+export function uploadVideo (params = {}) {
+  return HttpRequest('/upload', 'post', params)
+}

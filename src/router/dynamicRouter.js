@@ -13,6 +13,8 @@ export default {
   // 文章模块
   ArticleList: () => import('@/views/admin/blogModel/articleList'),
   ArticleType: () => import('@/views/admin/blogModel/articleType'),
-  FriendlyLink: () => import('@/views/admin/blogModel/friendlyLink')
+  FriendlyLink: () => import('@/views/admin/blogModel/friendlyLink'),
 
+  // 视频模块
+  VideoList: () => import('@/views/admin/video/videoList')
 }
